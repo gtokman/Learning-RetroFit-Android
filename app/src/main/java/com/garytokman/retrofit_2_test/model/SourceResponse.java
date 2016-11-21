@@ -1,20 +1,20 @@
 package com.garytokman.retrofit_2_test.model;
 // Gary Tokman
-// 11/19/16
+// 11/20/16
 // RetroFit-2-Test
 
 import java.util.List;
 
-public class ArticleResponse {
+public class SourceResponse {
 
-    String status;
-    List<Article> articles;
+    private String status;
+    private List<Source> sources;
 
     public String getStatus() {
         return status;
     }
 
-    public List<Article> getArticles() {
-        return articles;
+    public List<Source> getSources() {
+        return sources;
     }
 }

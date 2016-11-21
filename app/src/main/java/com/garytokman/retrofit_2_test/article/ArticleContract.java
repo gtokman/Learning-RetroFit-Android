@@ -1,20 +1,19 @@
-package com.garytokman.retrofit_2_test.presenter;
+package com.garytokman.retrofit_2_test.article;
 // Gary Tokman
-// 11/19/16
+// 11/20/16
 // RetroFit-2-Test
 
 import com.garytokman.retrofit_2_test.model.Article;
 
-import java.util.List;
-
 public interface ArticleContract {
 
     interface View {
-
-        void showArticles(List<Article> articles);
+        void showArticle(Article article);
 
         void showErrorMessage(String message);
 
-    }
+        void showProgessBar();
 
+        void hideProgressBar();
+    }
 }

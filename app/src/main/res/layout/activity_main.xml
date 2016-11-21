@@ -5,7 +5,7 @@
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.garytokman.retrofit_2_test.MainActivity"
+        tools:context="com.garytokman.retrofit_2_test.source.MainActivity"
         >
 
      <android.support.v7.widget.RecyclerView
